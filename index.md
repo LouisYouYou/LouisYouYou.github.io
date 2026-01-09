@@ -64,16 +64,11 @@ title: Louis You｜AIoT × Embedded × AI
 
 ## 🧱 系統整合架構（System Architecture）
 
-
-感測器 / 致動器
-        ↓
-Raspberry Pi / Arduino
-        ↓
-Linux（GPIO / UART / I2C / SPI）
-        ↓
-Flask / MQTT / Database
-        ↓
-AI / ML / RAG / LLM
+- 感測器 / 致動器
+- Raspberry Pi / Arduino
+- Linux（GPIO / UART / I2C / SPI）
+- Flask / MQTT / Database
+- AI / ML / RAG / LLM
 
 ---
 
