@@ -65,13 +65,18 @@ title: Louis You｜AIoT × Embedded × AI
 ## 🧱 系統整合架構
 Sensors / Actuators
 ↓
+
 Raspberry Pi / Arduino
 ↓
+
 Linux（GPIO / UART / I2C / SPI）
 ↓
+
 Flask / MQTT / Database
 ↓
+
 AI / ML / RAG / LLM
+
 
 ---
 
