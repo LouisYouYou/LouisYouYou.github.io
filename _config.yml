@@ -1,0 +1,11 @@
+title: "Louis You"
+description: "Portfolio · Projects · Resume"
+url: "https://louisyouyou.github.io"
+theme: minima
+
+header_pages:
+  - projects.md
+  - about.md
+
+minima:
+  skin: classic
