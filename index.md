@@ -73,8 +73,6 @@ Flask / MQTT / Database
 ↓
 AI / ML / RAG / LLM
 
-yaml
-複製程式碼
 
 ---
 
