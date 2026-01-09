@@ -63,9 +63,9 @@ title: Louis You｜AIoT × Embedded × AI
 ---
 
 ## 🧱 系統整合架構
-感測器 / 致動器
+感測器 / 致動器  
         ↓
-Raspberry Pi / Arduino
+Raspberry Pi / Arduino  
         ↓
 Linux（GPIO / UART / I2C / SPI）
         ↓
