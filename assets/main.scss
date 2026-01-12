@@ -2,3 +2,8 @@
 ---
 
 @import "{{ site.theme }}";
+
+/* Remove ONLY the GitHub Pages credit line */
+.site-footer-credits {
+  display: none !important;
+}
