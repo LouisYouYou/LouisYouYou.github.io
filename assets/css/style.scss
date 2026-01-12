@@ -1,0 +1,9 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* 隱藏 Cayman footer */
+.site-footer {
+  display: none !important;
+}
