@@ -2,15 +2,3 @@
 ---
 
 @import "{{ site.theme }}";
-
-/* === Remove only the GitHub Pages generated text (Cayman safe hack) === */
-
-/* 隱藏原本文字 */
-.site-footer-credits {
-  font-size: 0 !important;
-}
-
-/* 防止任何子元素顯示 */
-.site-footer-credits * {
-  display: none !important;
-}
