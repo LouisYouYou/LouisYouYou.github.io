@@ -102,3 +102,8 @@
   .hero-title{ font-size: 32px; }
   .grid.two{ grid-template-columns: 1fr; }
 }
+/* ===== Remove Cayman footer ===== */
+.page-footer {
+  display: none !important;
+}
+
