@@ -25,9 +25,3 @@ permalink: /projects/
 - **技術**：Synology / OneDrive / Google Drive / Versioning
 
 ---
-
-## 3) 專案名稱：XXX
-- **問題**：
-- **解法**：
-- **成果**：
-- **技術**：
