@@ -18,7 +18,7 @@ title: Louis You｜AIoT × Embedded × Linux × AI / LLM
 
 職涯橫跨：
 - 電信產業（台灣大哥大、亞太電信）
-- 國際企業（IBM、美商開利集團）
+- 國際企業（IBM）
 - 資安維運（Smart OMC Outsourcing）
 - 製造業資訊與系統整合（全端工程師）
 
