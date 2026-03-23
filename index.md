@@ -13,8 +13,9 @@ title: Louis You｜AIoT × Embedded × Linux × AI / LLM
 
 ## 👋 關於我
 
-我是一名具備 **MIS 工程師 × AI 工程師雙軌背景** 的實戰型工程師，  
+我是一名具備 **MIS 工程師 × AI 工程師雙軌背景** 的實戰型工程師，
 累積 **14–15 年企業資訊系統、網路、資安、軟硬體整合與 AI 導入經驗**。
+→ [了解更多關於我](/about/)
 
 職涯橫跨：
 - 電信產業（台灣大哥大、亞太電信）
@@ -80,12 +81,7 @@ title: Louis You｜AIoT × Embedded × Linux × AI / LLM
 - LLM + RAG 智慧決策與分析
 - 可實際部署、可維運的系統架構
 
-👉 **查看專案 README**（Projects）
-
----
-
-
----
+→ [查看完整專案列表](/projects/)
 
 ## 💼 企業實務經驗摘要
 
@@ -119,3 +115,5 @@ title: Louis You｜AIoT × Embedded × Linux × AI / LLM
 - 適合 **AIoT、嵌入式、MIS、系統整合、AI 導入團隊**
 
 ---
+
+[Projects](/projects/) · [About](/about/)

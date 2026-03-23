@@ -53,9 +53,11 @@ title: About｜Louis You
 
 ## Contact
 
-- **GitHub**：<https://github.com/louisyouyou>  
+- **GitHub**：<https://github.com/louisyouyou>
 - **Email**：<louis.icanhelp@gmail.com>
 
 ---
+
+[← 回首頁](/) · [Projects](/projects/)
 
 > *I focus on building systems that teams can actually run, maintain, and trust.*
