@@ -5,49 +5,66 @@ title: About｜Louis You
 
 # About Me
 
-我是 **Louis You**，一名具備多年企業實務經驗的 **MIS / 軟體工程師**，  
-專注於將 **混亂的流程轉化為可維護、可擴充、可長期運行的系統**。
+我是 **Louis You**，一名具備 **MIS × AI 雙軌背景** 的實戰型工程師，
+累積 **14–15 年企業資訊系統、網路、資安、軟硬體整合與 AI 導入經驗**。
 
-我的核心價值在於：
-- 不只寫程式，而是打造 **團隊能持續使用的工具與 SOP**
-- 將需求從「口頭描述」落地為「可被監控與維運的系統流程」
-- 在穩定性、可讀性與長期維護之間取得平衡
-
-我熟悉企業內部系統整合、資訊治理與自動化流程設計，  
-能在 **工程實作與營運實務** 之間，扮演有效的橋樑角色。
+專注於將 **嵌入式硬體 → Linux 系統 → 網路與資料庫 → AI / LLM**
+整合為 **可穩定部署、可長期維運的工程解決方案**。
 
 ---
 
-## Professional Focus
+## Professional Background
 
-- **流程系統化**：將人工流程轉換為系統流程與自動化機制  
-- **工具導入與整合**：串接既有平台，降低學習與轉換成本  
-- **可維運設計**：重視權限、備份、監控與錯誤回復  
-- **跨部門溝通**：將技術語言轉譯為業務與管理可理解的方案  
+職涯橫跨多個產業與角色：
+
+- **電信產業**（台灣大哥大、亞太電信）— 前端工程、資安維運
+- **國際企業**（IBM）— IDC 機房、跨國技術支援
+- **資安維運**（Smart OMC Outsourcing）— 制度建置、稽核、事件應變
+- **製造業**（全端工程師）— 系統開發、硬體整合、AI 導入
 
 ---
 
-## Skills
+## Core Values
 
-### Backend Development
-- Python
-- Node.js
-- .NET / C#
+- 不只寫程式，而是打造 **可長期維運的系統**
+- 能獨立完成 **硬體 → 系統 → AI** 的完整端到端流程
+- 將技術方案轉化為 **業務與管理層可理解的實作成果**
+- 熟悉企業級 **穩定性、資安與維運要求**
 
-### Automation & Workflow
-- Webhook 設計與事件驅動流程
-- ETL 思維（資料收集、清洗、轉換、同步）
-- RPA 邏輯與流程拆解
+---
 
-### Operations & Governance
-- NAS 同步與備份策略規劃
-- 權限治理與資料存取控管
-- 檔案生命週期與版本管理
+## Technical Skills
 
-### System Integration
-- LINE Messaging API
-- Google Drive / Google Sheets
-- 企業內部系統與第三方服務整合
+### 🔧 Embedded / IoT
+- Raspberry Pi 4 / 5（Linux-based）
+- Arduino（UNO / 感測器模組整合）
+- GPIO / PWM / UART / I2C / SPI
+- 硬體抽象層（HAL）設計
+- 感測資料擷取與邏輯控制
+
+### 🖥 Linux / Backend / System
+- Linux 系統管理（含 Raspberry Pi OS）
+- Flask Web Application
+- MySQL / MSSQL / MariaDB
+- MQTT（Mosquitto）
+- Docker / Containerization
+- Apache / LAMP
+- Windows Server 2008 / 2012
+
+### 🤖 AI / Machine Learning / LLM
+- TensorFlow / Keras（MLP / CNN）
+- YOLO 物件偵測
+- OpenCV 影像處理與辨識
+- LLM 應用（ChatGPT API / Ollama）
+- RAG（Retrieval-Augmented Generation）
+- MCP（Model Context Protocol）
+- Prompt Engineering 與對話流程設計
+
+### 🔐 資訊安全 / 網路
+- Fortinet 防火牆設置與管理
+- Cisco Router 設定與維護
+- 資安制度推行、稽核與文件
+- 資安事件應變與教育訓練
 
 ---
 
@@ -60,4 +77,4 @@ title: About｜Louis You
 
 [← 回首頁](/) · [Projects](/projects/)
 
-> *I focus on building systems that teams can actually run, maintain, and trust.*
+> *Building systems that work end-to-end — from hardware to AI.*

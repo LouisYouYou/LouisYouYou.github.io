@@ -81,7 +81,6 @@ title: Louis You｜AIoT × Embedded × Linux × AI / LLM
 - LLM + RAG 智慧決策與分析
 - 可實際部署、可維運的系統架構
 
-→ [查看完整專案列表](/projects/)
 
 ## 💼 企業實務經驗摘要
 
