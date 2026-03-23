@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About｜Louis You
+permalink: /about/
 ---
 
 # About Me

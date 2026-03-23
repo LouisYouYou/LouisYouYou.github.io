@@ -1,62 +1,201 @@
 ---
-layout: page
-title: "Projects"
+layout: default
+title: Projects | Louis You
 permalink: /projects/
 ---
 
-# Projects
+# 🚀 Project Experience
 
-以下以「成果導向」呈現：背景 → 解法 → 量化成果 → 技術堆疊。
-
----
-
-## 1) AIoT 端到端感測控制系統
-**Embedded × Linux × Cloud × AI**
-
-- **問題**：需要一套可實際部署的 AIoT 系統，涵蓋感測、傳輸、儲存到智慧分析的完整流程
-- **解法**：以 Raspberry Pi 為核心，整合 Arduino 感測模組、MQTT 即時通訊、Flask API、MySQL 資料儲存，搭配 LLM 進行智慧決策
-- **成果**：完成端到端可部署系統，感測資料延遲 < 200ms，支援多感測器同時擷取
-- **技術**：Raspberry Pi / Arduino / GPIO / I2C / UART / Flask / MQTT / MySQL / Docker
+以下專案內容為依據我的技術能力、實務背景與產業場景所整理的 **代表性專案模型**，用以呈現我的系統分析、架構整合、開發與落地能力。
 
 ---
 
-## 2) 電腦視覺影像辨識系統
-**Computer Vision × Deep Learning**
+## 1. AIoT 智慧監控與異常偵測平台
 
-- **問題**：需要即時辨識特定物件並觸發對應控制邏輯
-- **解法**：使用 YOLO 進行物件偵測，OpenCV 處理影像串流，結合 Raspberry Pi 實現邊緣推論
-- **成果**：在 Raspberry Pi 上達到即時辨識，延遲 < 500ms，準確率達 90%+
-- **技術**：YOLO / OpenCV / TensorFlow / Keras / Python / Raspberry Pi
+### 專案定位
+建置一套可部署於工廠、設備場域或機房環境的 AIoT 監控系統，透過感測器、邊緣裝置與影像分析，進行異常狀態監測、警示通知與資料留存。
+
+### 我的角色
+- 系統架構規劃
+- 邊緣設備整合
+- 後端資料流設計
+- 異常通知機制建置
+- Linux 環境部署與維運
+
+### 技術架構
+- Edge Device：Raspberry Pi
+- Sensor / Interface：GPIO / UART / I2C / SPI
+- Backend：Python / Flask
+- Protocol：MQTT
+- AI / Vision：OpenCV / YOLO
+- Storage：MySQL / MS SQL
+- OS：Linux
+
+### 主要工作內容
+- 整合感測器資料採集與設備狀態回傳
+- 建立影像辨識流程，進行異常檢測
+- 設計 Web Dashboard 顯示設備狀態
+- 異常事件觸發後，自動推送通知
+- 建立可維護的模組化部署方式
+
+### 專案成果
+- 提升設備異常反應速度
+- 降低人工巡檢負擔
+- 建立可擴充的 AIoT 架構雛形
+- 具備導入更多場域的可行性
 
 ---
 
-## 3) LLM + RAG 智慧問答與決策系統
-**LLM × RAG × MCP**
+## 2. LINE 官方帳號精準分眾推播系統
 
-- **問題**：需要將企業內部知識庫與 LLM 結合，支援準確的情境問答與決策輔助
-- **解法**：建立 RAG 架構，整合向量資料庫與 LLM（ChatGPT API / Ollama），設計 MCP 流程串接感測資料
-- **成果**：問答準確率大幅提升，支援離線本地部署（Ollama），可擴充至 IoT 場景
-- **技術**：LLM / RAG / MCP / Ollama / ChatGPT API / Python / Prompt Engineering
+### 專案定位
+建置一套以 LINE Messaging API 為核心的客戶互動平台，讓企業可依不同使用者條件進行分群推播、訊息追蹤與互動管理。
+
+### 我的角色
+- Webhook 架構設計
+- 後端 API 開發
+- 使用者資料結構設計
+- 分眾邏輯規劃
+- 測試環境建置與驗證
+
+### 技術架構
+- Backend：Python / Flask
+- Messaging：LINE Messaging API
+- Webhook：ngrok / Webhook Endpoint
+- Database：MySQL / SQLite
+- Integration：Google Sheets / CRM-like logic
+
+### 主要工作內容
+- 接收 follow / message event 並寫入資料庫
+- 建立 userId 對應機制與名單管理
+- 設計分眾欄位與推播規則
+- 將後台操作流程簡化為可管理模式
+- 先以小量推播驗證，再規劃擴大名單使用
+
+### 專案成果
+- 建立可執行的 LINE 自動化互動流程
+- 讓分眾推播從人工作業轉為系統化流程
+- 提升行銷操作效率與客戶管理精準度
 
 ---
 
-## 4) LINE 客戶分眾推播與 CRM 流程整合
-**Workflow Automation × API Integration**
+## 3. 企業知識問答系統（RAG / LLM）
 
-- **問題**：原流程需要人工整理名單、訊息無法個人化、追蹤困難
-- **解法**：建立資料欄位規則與分眾標籤、串接自動推播流程、建立回流追蹤
-- **成果**：推播效率提升 3 倍，錯誤率下降 70%
-- **技術**：Node.js / Python / LINE Messaging API / Google Sheets / Webhook
+### 專案定位
+導入企業文件知識檢索與 AI 問答能力，讓內部人員能快速查詢 SOP、制度、文件與作業知識，減少重複詢問成本。
+
+### 我的角色
+- RAG 應用設計
+- 文件流程規劃
+- Prompt 設計
+- 知識來源整理
+- 系統整合與驗證
+
+### 技術架構
+- LLM Application
+- RAG Workflow
+- Internal Document Retrieval
+- API Integration
+- Python-based orchestration
+
+### 主要工作內容
+- 盤點可用知識來源與文件格式
+- 規劃文件切塊與檢索流程
+- 建立問答邏輯與回覆結構
+- 針對常見內部查詢情境優化提示詞
+- 測試問答準確性與實務可用性
+
+### 專案成果
+- 降低內部資訊搜尋成本
+- 提高知識文件可利用率
+- 提供 AI 導入企業內部流程的可行範例
 
 ---
 
-## 5) 企業檔案治理與 NAS 同步策略
-**Operations × Data Governance**
+## 4. 企業 IT 基礎架構與資訊安全整合優化
 
-- **問題**：檔案散落、版本混亂、備份不可驗證
-- **解法**：建立資料夾規範、命名規則、三層備份與還原演練 SOP
-- **成果**：還原時間由 2 小時降至 15 分鐘
-- **技術**：Synology / OneDrive / Google Drive / Versioning
+### 專案定位
+針對企業既有 IT 環境進行網路、伺服器、資安與系統整合作業，提升穩定性、安全性與維運效率。
+
+### 我的角色
+- MIS / Infra Engineer
+- 系統維運與疑難排解
+- 網路與資安設備管理
+- 跨部門技術支援
+
+### 技術範圍
+- Windows Server / Linux
+- IIS / SQL Server / Database Backup & Restore
+- Router / Switch / Firewall
+- Fortigate / Check Point / Juniper
+- AD / Permission / IT Support
+
+### 主要工作內容
+- 伺服器環境建置與維護
+- 網路設備調整、障礙排除與流量控管
+- 防火牆與資安規則管理
+- SQL 備份還原與應用系統支援
+- 處理企業使用者端與後端系統問題
+
+### 專案成果
+- 提升企業 IT 環境穩定度
+- 降低服務中斷風險
+- 建立可持續維運的資訊架構基礎
+
+---
+
+## 5. 製造場域資料整合與流程數位化
+
+### 專案定位
+將製造現場設備、報表、人工流程與資料流進行整合，降低重工、提升可追蹤性，並為後續 AI 導入打底。
+
+### 我的角色
+- 系統分析
+- 流程整合設計
+- 報表與資料庫開發
+- 現場需求轉系統需求
+
+### 技術架構
+- ASP.NET / VB.NET / C#
+- MSSQL / MySQL
+- ETL / Webhook / Report Integration
+- Excel / FineReport / ERP-like integration
+
+### 主要工作內容
+- 將現場流程轉為數位化作業
+- 設計報表、查詢與資料回寫流程
+- 串接內部系統與資料表
+- 提升跨部門資料透明度
+- 為後續自動化與 AI 分析預留資料基礎
+
+### 專案成果
+- 減少人工整理與重複輸入
+- 提升資訊一致性與追蹤效率
+- 建立數位化轉型初步成果
+
+---
+
+## 🔧 我擅長的專案類型
+
+- AIoT 系統建置
+- LLM / RAG 企業應用
+- Webhook / API / LINE 整合
+- 資料庫與後端系統整合
+- Linux / Server / Network 維運
+- 製造場域流程數位化
+- AI 導入前的 IT 基礎建設整備
+
+---
+
+## 📌 補充說明
+
+本頁專案為依據本人技術能力、產業背景與典型業務場景所整理之代表性專案，重點在於呈現：
+
+- 問題理解能力
+- 系統分析能力
+- 架構設計能力
+- 技術整合能力
+- AI 與企業流程落地能力
 
 ---
 
