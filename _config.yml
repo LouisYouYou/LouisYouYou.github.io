@@ -1,9 +1,10 @@
 title: "Louis You"
+description: "AIoT x Embedded x Linux x AI Engineer"
 url: "https://louisyouyou.github.io"
-theme: jekyll-theme-cayman
 
-header_pages:
-  - projects.md
-  - about.md
+# Disable theme — using custom layout
+plugins: []
 
-
+exclude:
+  - LouisYouYou.github.io-main
+  - README.md

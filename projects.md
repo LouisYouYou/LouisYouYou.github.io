@@ -8,7 +8,35 @@ permalink: /projects/
 
 以下專案內容為依據我的技術能力、實務背景與產業場景所整理的 **代表性專案模型**，用以呈現我的系統分析、架構整合、開發與落地能力。
 
----
+  <div class="project-card">
+    <div class="project-card-header">
+      <h3>AIoT 端到端實戰整合專案</h3>
+      <span class="project-card-number">PROJECT 01</span>
+    </div>
+    <div class="project-section">
+      <div class="project-section-label">概述</div>
+      <p>Embedded × Linux × Cloud × AI / LLM 全棧整合，涵蓋感測控制、即時通訊、影像分析與智慧決策。</p>
+    </div>
+    <div class="project-section">
+      <div class="project-section-label">技術堆疊</div>
+      <div class="skill-tags">
+        <span class="skill-tag">Raspberry Pi</span>
+        <span class="skill-tag">Arduino</span>
+        <span class="skill-tag">Linux GPIO</span>
+        <span class="skill-tag">Flask</span>
+        <span class="skill-tag">MQTT</span>
+        <span class="skill-tag">MySQL</span>
+        <span class="skill-tag">TensorFlow</span>
+        <span class="skill-tag">OpenCV</span>
+        <span class="skill-tag">YOLO</span>
+        <span class="skill-tag">LLM + RAG</span>
+      </div>
+    </div>
+    <div class="project-section">
+      <div class="project-section-label">特點</div>
+      <p>可實際部署、可維運的系統架構，從硬體感測到 AI 推論的完整端到端流程。</p>
+    </div>
+  </div>
 
 ## 1. AIoT 智慧監控與異常偵測平台
 
@@ -44,7 +72,35 @@ permalink: /projects/
 - 建立可擴充的 AIoT 架構雛形
 - 具備導入更多場域的可行性
 
----
+  <div class="project-card">
+    <div class="project-card-header">
+      <h3>檔案治理與 NAS 同步策略</h3>
+      <span class="project-card-number">PROJECT 03</span>
+    </div>
+    <div class="project-section">
+      <div class="project-section-label">問題</div>
+      <p>檔案散落、版本混亂、備份不可驗證。</p>
+    </div>
+    <div class="project-section">
+      <div class="project-section-label">解法</div>
+      <p>建立資料夾規範、命名規則、三層備份與還原演練 SOP。</p>
+    </div>
+    <div class="project-section">
+      <div class="project-section-label">成果</div>
+      <div class="project-metrics">
+        <span class="project-metric">還原時間由 2 小時降至 15 分鐘</span>
+      </div>
+    </div>
+    <div class="project-section">
+      <div class="project-section-label">技術堆疊</div>
+      <div class="skill-tags">
+        <span class="skill-tag">Synology</span>
+        <span class="skill-tag">OneDrive</span>
+        <span class="skill-tag">Google Drive</span>
+        <span class="skill-tag">Versioning</span>
+      </div>
+    </div>
+  </div>
 
 ## 2. LINE 官方帳號精準分眾推播系統
 

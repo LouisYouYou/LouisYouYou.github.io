@@ -4,7 +4,10 @@ title: About｜Louis You
 permalink: /about/
 ---
 
-# About Me
+<div class="hero" style="padding-bottom: 24px;">
+  <div class="section-label">About</div>
+  <h1 style="font-size: 36px;">About Me</h1>
+</div>
 
 我是 **Louis You**，一名具備 **MIS × AI 雙軌背景** 的實戰型工程師，
 累積 **14–15 年企業資訊系統、網路、資安、軟硬體整合與 AI 導入經驗**。
@@ -12,8 +15,18 @@ permalink: /about/
 專注於將 **嵌入式硬體 → Linux 系統 → 網路與資料庫 → AI / LLM**
 整合為 **可穩定部署、可長期維運的工程解決方案**。
 
----
+<div class="section">
+  <div class="section-header">
+    <div class="section-label">Contact</div>
+    <h2 class="section-title">Get in Touch</h2>
+  </div>
+  <div class="contact-links">
+    <a href="https://github.com/louisyouyou" class="contact-link" target="_blank" rel="noopener">GitHub</a>
+    <a href="mailto:louis.icanhelp@gmail.com" class="contact-link">Email</a>
+  </div>
+</div>
 
+<<<<<<< HEAD
 ## Professional Background
 
 職涯橫跨多個產業與角色：
@@ -79,3 +92,10 @@ permalink: /about/
 [← 回首頁](/) · [Projects](/projects/)
 
 > *Building systems that work end-to-end — from hardware to AI.*
+=======
+<div class="cta" style="margin-top: 48px;">
+  <p style="font-style: italic; margin-bottom: 0; color: var(--text-secondary);">
+    "I focus on building systems that teams can actually run, maintain, and trust."
+  </p>
+</div>
+>>>>>>> 373810c (Finalize website update (content + layout))
