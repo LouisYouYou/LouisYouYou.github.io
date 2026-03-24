@@ -59,7 +59,10 @@
           <a href="mailto:louis.icanhelp@gmail.com">Email</a>
         </div>
       </div>
-      <div class="footer-copy">&copy; {{ 'now' | date: '%Y' }} Louis You. All rights reserved.</div>
+      <div class="footer-copy">
+        <span>&copy; {{ 'now' | date: '%Y' }} Louis You. All rights reserved.</span>
+        <span class="footer-status">Available for opportunities</span>
+      </div>
     </div>
   </footer>
 
@@ -87,6 +90,17 @@
     window.addEventListener('scroll', () => {
       nav.classList.toggle('scrolled', window.scrollY > 10);
     });
+
+    // Scroll-triggered animations
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+    document.querySelectorAll('.animate-in').forEach(el => observer.observe(el));
   </script>
 
 </body>
