@@ -7,7 +7,7 @@
   <meta name="description" content="{{ page.description | default: site.description }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+TC:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
 <body>
@@ -20,12 +20,12 @@
         <span class="nav-logo-text">Louis You</span>
       </a>
       <div class="nav-links">
-        <a href="{{ '/' | relative_url }}" class="nav-link {% if page.url == '/' %}active{% endif %}">Home</a>
-        <a href="{{ '/projects/' | relative_url }}" class="nav-link {% if page.url == '/projects/' %}active{% endif %}">Projects</a>
-        <a href="{{ '/about/' | relative_url }}" class="nav-link {% if page.url == '/about/' %}active{% endif %}">About</a>
+        <a href="{{ '/' | relative_url }}" class="nav-link {% if page.url == '/' %}active{% endif %}">首頁</a>
+        <a href="{{ '/projects/' | relative_url }}" class="nav-link {% if page.url == '/projects/' %}active{% endif %}">專案作品</a>
+        <a href="{{ '/about/' | relative_url }}" class="nav-link {% if page.url == '/about/' %}active{% endif %}">關於我</a>
         <a href="https://github.com/louisyouyou" class="nav-link nav-link-external" target="_blank" rel="noopener">GitHub</a>
       </div>
-      <button class="nav-toggle" aria-label="Toggle menu">
+      <button class="nav-toggle" aria-label="切換選單">
         <span></span><span></span><span></span>
       </button>
     </div>
@@ -33,9 +33,9 @@
 
   <!-- Mobile menu -->
   <div class="mobile-menu">
-    <a href="{{ '/' | relative_url }}" class="mobile-menu-link {% if page.url == '/' %}active{% endif %}">Home</a>
-    <a href="{{ '/projects/' | relative_url }}" class="mobile-menu-link {% if page.url == '/projects/' %}active{% endif %}">Projects</a>
-    <a href="{{ '/about/' | relative_url }}" class="mobile-menu-link {% if page.url == '/about/' %}active{% endif %}">About</a>
+    <a href="{{ '/' | relative_url }}" class="mobile-menu-link {% if page.url == '/' %}active{% endif %}">首頁</a>
+    <a href="{{ '/projects/' | relative_url }}" class="mobile-menu-link {% if page.url == '/projects/' %}active{% endif %}">專案作品</a>
+    <a href="{{ '/about/' | relative_url }}" class="mobile-menu-link {% if page.url == '/about/' %}active{% endif %}">關於我</a>
     <a href="https://github.com/louisyouyou" class="mobile-menu-link" target="_blank" rel="noopener">GitHub</a>
   </div>
 
@@ -52,7 +52,7 @@
       <div class="footer-inner">
         <div class="footer-brand">
           <span class="footer-logo">Louis You</span>
-          <p class="footer-tagline">AIoT / Embedded / Linux / AI</p>
+          <p class="footer-tagline">AIoT / 嵌入式系統 / Linux / AI</p>
         </div>
         <div class="footer-links">
           <a href="https://github.com/louisyouyou" target="_blank" rel="noopener">GitHub</a>
@@ -60,8 +60,8 @@
         </div>
       </div>
       <div class="footer-copy">
-        <span>&copy; {{ 'now' | date: '%Y' }} Louis You. All rights reserved.</span>
-        <span class="footer-status">Available for opportunities</span>
+        <span>&copy; {{ 'now' | date: '%Y' }} Louis You. 版權所有。</span>
+        <span class="footer-status">開放工作機會中</span>
       </div>
     </div>
   </footer>
