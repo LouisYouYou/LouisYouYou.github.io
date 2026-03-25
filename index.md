@@ -17,7 +17,7 @@ title: Louis You｜AIoT x 嵌入式系統 x Linux x AI
   </p>
   <p class="hero-desc">
     建構可實際部署的 AIoT 系統，從硬體感測器到 AI 推論的端到端實戰開發者。<br>
-    累積 14 年以上企業資訊系統、網路、資安、軟硬體整合與 AI 導入經驗。
+    累積 10 年以上企業資訊系統、網路、資安、軟硬體整合與 AI 導入經驗。
   </p>
   <div class="hero-actions">
     <a href="/projects/" class="btn btn-primary"><span class="btn-icon">&#9654;</span> 查看專案作品</a>
@@ -25,7 +25,7 @@ title: Louis You｜AIoT x 嵌入式系統 x Linux x AI
   </div>
   <div class="hero-metrics">
     <div class="hero-metric">
-      <span class="hero-metric-value">14+</span>
+      <span class="hero-metric-value">10+</span>
       <span class="hero-metric-label">年實務經驗</span>
     </div>
     <div class="hero-metric">
