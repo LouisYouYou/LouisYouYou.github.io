@@ -221,6 +221,48 @@ permalink: /projects/
     <p class="section-desc">業餘時間完成的開源遊戲與應用開發，展示跨平台行動開發能力。</p>
   </div>
   <div class="project-grid">
+    <div class="project-card animate-in" style="border-top: 3px solid #FFD600;">
+      <div class="project-card-header">
+        <h3>⚾ 怪獸英語圖鑑</h3>
+        <span class="project-card-number" style="background: linear-gradient(135deg,#2979FF,#FF6D00); color:#fff; border-radius:8px; padding: 2px 10px; font-size:12px;">Android</span>
+      </div>
+      <div class="project-section">
+        <div class="project-section-label">概述</div>
+        <p>以「寶可夢收集」為靈感設計的 Android 英語學習遊戲，專為台灣國小一至六年級學生打造。答對英文單字題目即可收服對應的英語怪獸，透過圖鑑收集機制強化單字記憶，搭配稀有度分級系統提升學習動機。</p>
+      </div>
+      <div class="project-section">
+        <div class="project-section-label">技術堆疊</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Kotlin</span>
+          <span class="skill-tag">Android SDK 35</span>
+          <span class="skill-tag">Gradle 9.2.1</span>
+          <span class="skill-tag">Material Design 3</span>
+          <span class="skill-tag">View Binding</span>
+          <span class="skill-tag">SharedPreferences</span>
+        </div>
+      </div>
+      <div class="project-section">
+        <div class="project-section-label">功能亮點</div>
+        <ul style="margin:0; padding-left:16px; color:var(--text-secondary); font-size:14px; line-height:1.8;">
+          <li>120 隻英語怪獸 × 8 個主題狩獵場域（動物、食物、數字…）</li>
+          <li>四階稀有度系統：⚪普通 → 🟢稀有 → 🟠超稀有 → 🟣傳說</li>
+          <li>5 欄怪獸圖鑑，收服進度即時視覺化</li>
+          <li>收服率 ≥70% 解鎖下一場域，星星評分激勵重複練習</li>
+          <li>兒童友善 UI：大圓角卡片、高對比漸層配色、60dp 大觸控按鈕</li>
+        </ul>
+      </div>
+      <div class="project-section">
+        <div class="project-section-label">相關連結</div>
+        <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:6px;">
+          <a href="https://github.com/LouisYouYou/TaiwanEnglishQuest"
+             target="_blank"
+             style="display:inline-flex; align-items:center; gap:6px; padding:6px 14px; background:rgba(255,214,0,0.1); border:1px solid rgba(255,214,0,0.4); border-radius:20px; color:#FFD600; font-size:13px; font-weight:600; text-decoration:none;">
+            ⭐ GitHub 原始碼
+          </a>
+        </div>
+      </div>
+    </div>
+
     <div class="project-card animate-in" style="border-top: 3px solid #00F5FF;">
       <div class="project-card-header">
         <h3>🎮 俄羅斯方塊</h3>
