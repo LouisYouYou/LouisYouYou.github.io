@@ -213,6 +213,58 @@ permalink: /projects/
   </div>
 </div>
 
+
+<div class="section animate-in" style="margin-bottom: 40px;">
+  <div class="section-header">
+    <div class="section-label">開源作品</div>
+    <h2 class="section-title">Side Projects</h2>
+    <p class="section-desc">業餘時間完成的開源遊戲與應用開發，展示跨平台行動開發能力。</p>
+  </div>
+  <div class="project-grid">
+    <div class="project-card animate-in" style="border-top: 3px solid #00F5FF;">
+      <div class="project-card-header">
+        <h3>🎮 俄羅斯方塊</h3>
+        <span class="project-card-number" style="background: linear-gradient(135deg,#2266FF,#AA00FF); color:#fff; border-radius:8px; padding: 2px 10px; font-size:12px;">Flutter</span>
+      </div>
+      <div class="project-section">
+        <div class="project-section-label">概述</div>
+        <p>以 Flutter 打造的跨平台經典俄羅斯方塊遊戲，單一程式碼庫同時輸出 Android APK 與 iOS IPA，採深色霓虹主題設計，搭配 Canvas 逐格光澤渲染與 Ghost Piece 落地預覽。</p>
+      </div>
+      <div class="project-section">
+        <div class="project-section-label">技術堆疊</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Flutter 3.x</span>
+          <span class="skill-tag">Dart</span>
+          <span class="skill-tag">CustomPainter</span>
+          <span class="skill-tag">Provider</span>
+          <span class="skill-tag">Android APK</span>
+          <span class="skill-tag">iOS IPA</span>
+        </div>
+      </div>
+      <div class="project-section">
+        <div class="project-section-label">功能亮點</div>
+        <ul style="margin:0; padding-left:16px; color:var(--text-secondary); font-size:14px; line-height:1.8;">
+          <li>7 種繽紛霓虹配色方塊，每格含光澤與發光邊框渲染</li>
+          <li>Ghost Piece 半透明輪廓，即時預覽落地位置</li>
+          <li>觸控手勢全支援：左右滑動、點擊旋轉、雙擊直接落地</li>
+          <li>等級系統：每 10 行升一級，速度從 800ms 遞減至 80ms</li>
+          <li>計分制度：單行 100 分 ～ 四行 800 分（× 等級倍率）</li>
+        </ul>
+      </div>
+      <div class="project-section">
+        <div class="project-section-label">相關連結</div>
+        <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:6px;">
+          <a href="https://github.com/LouisYouYou/tetris-game"
+             target="_blank"
+             style="display:inline-flex; align-items:center; gap:6px; padding:6px 14px; background:rgba(0,245,255,0.1); border:1px solid rgba(0,245,255,0.4); border-radius:20px; color:#00F5FF; font-size:13px; font-weight:600; text-decoration:none;">
+            ⭐ GitHub 原始碼
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="section animate-in">
   <div class="section-header">
     <div class="section-label">實績驗證</div>
