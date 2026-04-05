@@ -24,9 +24,7 @@ title: Louis You｜AIoT x 嵌入式系統 x Linux x AI
     <a href="mailto:louis.icanhelp@gmail.com" class="btn"><span class="btn-icon">&#9993;</span> 聯絡我</a>
   </div>
   <div class="hero-metrics">
-    <div class="hero-metric">
-      <span class="hero-metric-label">實務經驗</span>
-    </div>
+ 
     <div class="hero-metric">
       <span class="hero-metric-value">5+</span>
       <span class="hero-metric-label">跨產業歷練</span>
