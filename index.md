@@ -25,8 +25,7 @@ title: Louis You｜AIoT x 嵌入式系統 x Linux x AI
   </div>
   <div class="hero-metrics">
     <div class="hero-metric">
-      <span class="hero-metric-value">10+</span>
-      <span class="hero-metric-label">年實務經驗</span>
+      <span class="hero-metric-label">實務經驗</span>
     </div>
     <div class="hero-metric">
       <span class="hero-metric-value">5+</span>
