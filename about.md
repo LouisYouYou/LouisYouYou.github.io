@@ -11,7 +11,7 @@ permalink: /about/
 
 <p class="about-intro">
   我是 <strong>Louis You</strong>，一名具備 <strong>MIS × AI 雙軌背景</strong>的實戰型工程師，
-  累積 <strong>10 年以上</strong>企業資訊系統、網路、資安、軟硬體整合與 AI 導入經驗。
+  </strong>企業資訊系統、網路、資安、軟硬體整合與 AI 導入經驗。
   專注於將<strong>嵌入式硬體 &rarr; Linux 系統 &rarr; 網路與資料庫 &rarr; AI / LLM</strong>
   整合為可穩定部署、可長期維運的工程解決方案。
 </p>
