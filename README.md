@@ -8,5 +8,5 @@ Louis You 的個人技術網站 — AIoT × Embedded × Linux × AI / LLM
 
 ---
 
-MIS 工程師 × AI 工程師，14+ 年企業實務背景，
+MIS 工程師 × AI 工程師，企業實務背景，
 專注於從硬體到 AI 的端到端 AIoT 系統開發與部署。
